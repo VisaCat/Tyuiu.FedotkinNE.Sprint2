@@ -12,13 +12,13 @@ namespace Tyuiu.FedotkinNE.Sprint2.Task0.V2.Test
                 DataService ds = new DataService();
                 int x = 123;
                 int y = 123;
-                bool[] expectedResult = new bool[] { false, true, false, true, false, true };
+                bool[] res= new bool[] { false, true, false, true, false, true };
 
                 // Act
-                bool[] actualResult = ds.GetCompareOperations(x, y);
+                bool[] s = ds.GetCompareOperations(x, y);
 
                 // Assert
-                Assert.AreEqual(expectedResult, actualResult);
+                Assert.AreEqual(s, res);
 
             }
     }
