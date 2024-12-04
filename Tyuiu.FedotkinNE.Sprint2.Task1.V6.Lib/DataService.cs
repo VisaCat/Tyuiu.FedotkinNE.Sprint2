@@ -12,9 +12,9 @@ namespace Tyuiu.FedotkinNE.Sprint2.Task1.V6.Lib
             !(a > b),
             !(c >= d) && (a == b),
             (a > b) || (c < d),
-            !(d > b) && (c != a),
+            !(d > b) && (c == a),
             (a > b) || (c < d),
-            !(a == b) && (c > d)
+            !(a == b) && (c < d)
         };
             return result;
         }
