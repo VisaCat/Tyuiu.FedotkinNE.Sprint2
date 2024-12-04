@@ -5,11 +5,17 @@ VisualStudioVersion = 17.11.35303.130
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task0", "Task0", "{765FD561-75DB-46F7-8162-9FC5E3682B4F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.FedotkinNE.Sprint2.Task0.V2", "Tyuiu.FedotkinNE.Sprint2.Task0.V2\Tyuiu.FedotkinNE.Sprint2.Task0.V2.csproj", "{9A2E7D64-1CA4-4BA9-9742-BE8656C5A6B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.FedotkinNE.Sprint2.Task0.V2", "Tyuiu.FedotkinNE.Sprint2.Task0.V2\Tyuiu.FedotkinNE.Sprint2.Task0.V2.csproj", "{9A2E7D64-1CA4-4BA9-9742-BE8656C5A6B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.FedotkinNE.Sprint2.Task0.V2.Lib", "Tyuiu.FedotkinNE.Sprint2.Task0.V2.Lib\Tyuiu.FedotkinNE.Sprint2.Task0.V2.Lib.csproj", "{FE63BD7B-2247-49D4-AB2E-01FDE694A572}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.FedotkinNE.Sprint2.Task0.V2.Lib", "Tyuiu.FedotkinNE.Sprint2.Task0.V2.Lib\Tyuiu.FedotkinNE.Sprint2.Task0.V2.Lib.csproj", "{FE63BD7B-2247-49D4-AB2E-01FDE694A572}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.FedotkinNE.Sprint2.Task0.V2.Test", "Tyuiu.FedotkinNE.Sprint2.Task0.V2.Test\Tyuiu.FedotkinNE.Sprint2.Task0.V2.Test.csproj", "{BD356634-A66B-48F8-905D-A1847169596B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.FedotkinNE.Sprint2.Task0.V2.Test", "Tyuiu.FedotkinNE.Sprint2.Task0.V2.Test\Tyuiu.FedotkinNE.Sprint2.Task0.V2.Test.csproj", "{BD356634-A66B-48F8-905D-A1847169596B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task1", "Task1", "{B896682A-D005-495E-84B5-00AADBC2C7A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.FedotkinNE.Sprint2.Task1.V6", "Tyuiu.FedotkinNE.Sprint2.Task1.V6\Tyuiu.FedotkinNE.Sprint2.Task1.V6.csproj", "{AD4AA3B7-BEBF-43FE-B392-80D7781F22D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.FedotkinNE.Sprint2.Task1.V6.Lib", "Tyuiu.FedotkinNE.Sprint2.Task1.V6.Lib\Tyuiu.FedotkinNE.Sprint2.Task1.V6.Lib.csproj", "{736C611A-E510-4DB1-9397-AC3C8C071B80}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +35,14 @@ Global
 		{BD356634-A66B-48F8-905D-A1847169596B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD356634-A66B-48F8-905D-A1847169596B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD356634-A66B-48F8-905D-A1847169596B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD4AA3B7-BEBF-43FE-B392-80D7781F22D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD4AA3B7-BEBF-43FE-B392-80D7781F22D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD4AA3B7-BEBF-43FE-B392-80D7781F22D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD4AA3B7-BEBF-43FE-B392-80D7781F22D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{736C611A-E510-4DB1-9397-AC3C8C071B80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{736C611A-E510-4DB1-9397-AC3C8C071B80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{736C611A-E510-4DB1-9397-AC3C8C071B80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{736C611A-E510-4DB1-9397-AC3C8C071B80}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -37,6 +51,8 @@ Global
 		{9A2E7D64-1CA4-4BA9-9742-BE8656C5A6B6} = {765FD561-75DB-46F7-8162-9FC5E3682B4F}
 		{FE63BD7B-2247-49D4-AB2E-01FDE694A572} = {765FD561-75DB-46F7-8162-9FC5E3682B4F}
 		{BD356634-A66B-48F8-905D-A1847169596B} = {765FD561-75DB-46F7-8162-9FC5E3682B4F}
+		{AD4AA3B7-BEBF-43FE-B392-80D7781F22D2} = {B896682A-D005-495E-84B5-00AADBC2C7A2}
+		{736C611A-E510-4DB1-9397-AC3C8C071B80} = {B896682A-D005-495E-84B5-00AADBC2C7A2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6427396F-E7BA-4887-91CF-4176C812629C}
