@@ -23,7 +23,7 @@ namespace Tyuiu.FedotkinNE.Sprint2.Task3.V29.Lib
             {
                 y = x + 10 * x - (1 / x);
             }
-            return y;
+            return Math.Round(y, 3);
         }
     }
 }
