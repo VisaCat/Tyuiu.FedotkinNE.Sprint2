@@ -10,7 +10,7 @@ namespace Tyuiu.FedotkinNE.Sprint2.Task3.V29
             double x = Convert.ToDouble(Console.ReadLine());
             DataService ds = new DataService();
             double y = ds.Calculate(x);
-            Console.WriteLine($"Y = {Math.Round(y, 3)}");
+            Console.WriteLine(Math.Round(y, 3));
         }
     }
 }
